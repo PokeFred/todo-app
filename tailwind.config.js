@@ -1,4 +1,5 @@
 import { skeleton } from '@skeletonlabs/tw-plugin'
+import forms from '@tailwindcss/forms'
 import { join as joinPath } from 'path'
 
 /** @type {import('tailwindcss').Config} */
@@ -14,5 +15,6 @@ export default {
                 preset: ['skeleton', 'wintry', 'modern', 'seafoam', 'gold-nouveau'],
             },
         }),
+        forms,
     ],
 }
