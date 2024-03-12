@@ -1,7 +1,7 @@
 # Requirements
 
-- NodeJS v21
-- Docker v25 && Docker Compose v2 (optional)
+-   NodeJS v21
+-   Docker v25 && Docker Compose v2 (optional)
 
 # How to setup
 
