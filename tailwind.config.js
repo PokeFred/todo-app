@@ -11,7 +11,7 @@ export default {
     plugins: [
         skeleton({
             themes: {
-                preset: ['skeleton'],
+                preset: ['skeleton', 'wintry', 'modern', 'seafoam', 'gold-nouveau'],
             },
         }),
     ],
