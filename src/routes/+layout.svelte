@@ -1,13 +1,14 @@
 <script lang="ts">
     import '../app.css'
+    import { AppShell, AppBar } from "@skeletonlabs/skeleton"
     import { darkmode } from '$stores/darkmode'
     import { theme } from '$stores/theme'
 </script>
 
-<div data-theme={$theme} class={$darkmode ? 'dark' : 'light'}>
-    <div class="bg-surface-50-900-token text-surface-900-50-token absolute left-0 top-0 h-screen w-screen overflow-hidden">
+<custom_theming_element data-theme={$theme} class={$darkmode ? 'dark' : 'light'}>
+    <AppShell slotPageContent="text-surface-900-50-token bg-surface-50-900-token">
         <div class="p-4">
             <slot />
         </div>
-    </div>
-</div>
+    </AppShell>
+</custom_theming_element>
