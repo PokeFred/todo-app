@@ -1,6 +1,6 @@
 <script lang="ts">
     import '../app.css'
-    import { AppShell, AppBar } from "@skeletonlabs/skeleton"
+    import { AppShell, AppBar } from '@skeletonlabs/skeleton'
     import { darkmode } from '$stores/darkmode'
     import { theme } from '$stores/theme'
 </script>
